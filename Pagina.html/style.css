@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.instrument{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titulo{
+    font-size: 15px;
+    padding-left: 950px;
+}
+
+article{
+    display: flex;
+}
+
+.principal{
+    font-family: 'Roboto Mono', monospace;
+    padding: 30px;
+    margin-top: 150px;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.build{
+    text-decoration: line-through gray;
+}
+
+.serve{
+    text-decoration: underline wavy rgb(46, 141, 192);
+}
+
+.weare{
+    font-family: 'Belanosima', sans-serif;
+    margin: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+    align-items: flex-start;
+}
+
+button img{
+    width: 40px;
+    height: 20px;
+
+} 
+
+button{
+    padding-bottom: 15px;
+    padding: 10px;
+    margin: 50px;
+    font-size: 15px;
+    border-radius: 30px;
+}
